@@ -15,3 +15,6 @@ The script should be able to:
 Apr 27
 Problems when trying to extract input element:
 Some eCom website uses ´checkout-app.js´ for checkout, the codes are hidden in the html file (e.g. new era website)
+
+Apr 28
+View page source is different from inspect
