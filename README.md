@@ -7,3 +7,8 @@ The script should be able to:
 3. Identify if browser autofill is enabled in the form fields
 4. Identify if inline validation of error is applied to the form fields
 5. Provide relevant recommendations based on the outcomes of no.1-4 mentioned above
+
+
+Apr 27
+Problems when trying to extract input element:
+Some eCom website uses ´checkout-app.js´ for checkout, the codes are hidden in the html file (e.g. new era website)
