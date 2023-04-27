@@ -17,4 +17,5 @@ Problems when trying to extract input element:
 Some eCom website uses ´checkout-app.js´ for checkout, the codes are hidden in the html file (e.g. new era website)
 
 Apr 28
-View page source is different from inspect
+View page source is different from inspect:
+The site is using template so that input elements cannot be checked
