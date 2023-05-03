@@ -12,3 +12,5 @@ soup = BeautifulSoup(html, 'html.parser')
 # Only include types that will require user input
 input_elements = soup.find_all('input', {'type': ['text', 'email', 'tel', 'date', 'datetime-local', 'number', 'month', 'time']})
 
+
+
