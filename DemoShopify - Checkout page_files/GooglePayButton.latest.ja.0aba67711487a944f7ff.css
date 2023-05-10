@@ -1,0 +1,3 @@
+.EbuOU button{border:1px solid transparent!important;border-radius:var(
+    --x-control-border-radius,var(--x-global-border-radius,var(--x-border-radius-base))
+  )!important;max-height:inherit!important;max-width:inherit!important;min-height:inherit!important;min-width:inherit!important}
