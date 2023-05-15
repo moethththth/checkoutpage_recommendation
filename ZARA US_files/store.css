@@ -1,0 +1,306 @@
+/* new campaign */
+.menu-item--accessible,
+.layout-categories-category--accessible {
+	display: none;
+}
+
+.marketing-fashion-content-page .theme--dark {
+	--color-main-000: #fff;
+	--color-main-005: #f2f2f2;
+	--color-main-010: #e5e5e5;
+	--color-main-020: #ccc;
+	--color-main-040: #999;
+	--color-main-060: #666;
+	--color-main-080: #333;
+	--color-main: #000;
+	--color-recommendation: #d4e5f7;
+}
+
+.marketing-fashion-content-page .theme--dark .layout__sidebar-content {
+	background: var(--color-main-000);
+}
+
+/* hide carousel product info for beauty in desktop */
+@media screen and (min-width: 1024px) {
+	html[id*="BEAUTY"] .product-grid-block-carousel__product-info {
+		display: none;
+	}
+
+	html[id*="BEAUTY"] .product-grid-block-carousel__primary-product {
+		width: calc(var(--grid-column-width) * 4 + var(--grid-column-gutter) * 3);
+	}
+
+	html[id*="BEAUTY"] .product-grid-block-carousel__primary-product.product-grid-product--double {
+		margin-left: calc(var(--grid-column-width) * 2 + var(--grid-column-gutter) * 2);
+		width: calc(var(--grid-column-width) * 8 + var(--grid-column-gutter) * 7);
+	}
+}
+
+li[id*="zara-origins"] .media-video__audio-toggle-icon {
+	filter: invert(1)
+}
+
+.home-page.theme--origins .layout-header__main {
+	height: 60px;
+}
+
+.home-page.theme--origins .layout-header-link {
+	color: inherit;
+}
+
+.theme--athleticz .product-grid-product.product-grid-product--extra-image {
+    width: calc(100% - 32px);
+    margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+	.media-3d-advanded__viewer-overlay-close-icon {
+		fill: #000;
+	}
+
+	.media-3d-advanded__viewer-overlay-message {
+		color: #000;
+		fill: #000;
+	}	
+}
+
+.media-spin-360__rotate-icon {
+	fill: #fff;
+}
+
+.theme--athleticz .product-detail-color-selector__color-marker:not(.product-detail-color-selector__color-marker--is-selected) .product-detail-color-selector__color-area {
+	box-shadow: 0 0 0 1px var(--color-main-060);
+}
+
+/* clothing experiment ITSMECOM-1523241 */
+li.layout-categories-category[data-categoryid="2050878"] {
+	display: none;
+}
+
+@media screen and (min-width: 1024px) {
+	.product-grid-block-carousel__secondary-products--multiproduct .price__future-discount-percentage {
+		display: inline;
+	}
+}
+
+html[data-store="cn"] .layout-footer__stores .layout-footer__item {
+	display: none;
+}
+
+.layout-header-links__desktop-link {
+	white-space: nowrap;
+}
+
+/* beauty nail polish */
+.product-grid-block[data-blockid="5ce3e611-7224-46f6-bf31-05ee0b310f14"] .product-grid-block-product-extended-info__color-list,
+.product-grid-block[data-blockid="a57506a0-5055-4006-ad38-2a92d185b27e"] .product-grid-block-product-extended-info__color-list {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.home-page .main-content-header {
+		padding-bottom: 0;
+	}
+}
+
+[id^=product-detail-size-selector-product-detail-interactive-size-guide].product-detail-size-selector__size-list-wrapper {
+	z-index: 350;
+}
+
+.theme--origins.home-page .layout-header {
+	border-bottom: none;
+}
+
+@media screen and (min-width: 1024px) {
+	.product-page.theme--origins .carousel__container .media__wrapper.media__wrapper--fill,
+	.product-page.theme--origins .variable-width-carousel .media__wrapper.media__wrapper--fill {
+		overflow: hidden;
+		padding-bottom: 125%!important;
+	}
+}
+
+.product-detail-images-horizontal-carousel .variable-width-carousel__item:last-child:nth-child(2) {
+	border-right: 1px solid var(--color-main);
+}
+
+@media screen and (min-width: 1600px) {
+    .theme--origins .category-topbar-related-categories .category-topbar-related-categories__categories .variable-width-carousel__arrow {
+        top: calc(50% - 1px);
+    }
+}
+@media screen and (min-width: 768px) {
+  .theme--origins .products-category-view__nieces-categories .variable-width-carousel__arrow--left {
+        left: calc(100vw / 3 - 24px);
+    }
+}
+
+.product-grid--is-srpls .product-grid-product-info__product-header .product-grid-product-info__main-info {
+	justify-content: normal;
+}
+
+.product-grid-product--sticky {
+	top: 50px;
+}
+
+.products-category-view--with-topbar-visible .product-grid--is-srpls .product-grid-product--sticky {
+	top: 50px;
+}
+
+.product-grid--is-srpls .product-grid-product.product-grid-product--divider {
+	margin: -2px -1px
+}
+
+@media screen and (min-width: 768px) {
+  [dir="ltr"] .layout-categories__categories .layout-categories__logo {
+        margin-right: 180px;
+    }
+}
+@media screen and (min-width: 860px) {
+  [dir="ltr"] .layout-categories__categories .layout-categories__logo {
+        margin-right: 130px;
+    }
+}
+@media screen and (min-width: 1372px) {
+  [dir="ltr"] .layout-categories__categories .layout-categories__logo {
+        margin-right: 50px;
+    }
+}
+
+.marketing-fashion-content-page.no-mkt .layout__content,
+.marketing-fashion-content-page.no-mkt .layout__main {
+	padding: 0;
+}
+
+/* styles for grid carousel */
+[dir='ltr'] .product-grid-media-carousel .carousel__viewport {
+	margin-right: -1px;
+}
+[dir='ltr'] .product-grid-media-carousel .carousel__container {
+    overflow: hidden;
+}
+
+/* styles for altering the filters order */
+.filters-panel__wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.filters-panel__wrapper .filters-panel-single-filters {
+	order: 2;
+}
+
+.theme--athleticz .product-grid-product--extra-image .product-grid-media,
+.theme--athleticz .product-grid-product--extra-image .product-grid-media:last-child,
+.theme--athleticz .product-grid-product--extra-image .product-grid-media-carousel,
+.theme--athleticz .product-grid-product--extra-image .product-grid-media-carousel:last-child {
+    margin: 0;
+    width: calc(50% - var(--grid-column-gutter));
+}
+@media screen and (min-width: 768px) {
+    .theme--athleticz .product-grid-product.product-grid-product--extra-image {
+        margin-left: 0;
+        width: calc(((100% - var(--grid-column-gutter) * 6 - var(--grid-lateral-margin) * 4) / 2) + (var(--grid-column-gutter) * 2));
+    }
+}
+
+/* HALLOWEEN EVENT */
+@media screen and (min-width: 768px) {
+	html[id*="HALLOWEEN"],
+	html[id*="HALLOWEEN"] .link,
+	html[id*="HALLOWEEN"] .filters__button,
+	html[id*="HALLOWEEN"] .slider,
+	html[id*="HALLOWEEN"] .layout-header__mobile-action,
+	html[id*="HALLOWEEN"] .product-detail-size-selector__size-list-item,
+	html[id*="HALLOWEEN"] .product-detail-product-size-selector-footer__size-guide-btn {
+		cursor: url("https://static.zara.net/static/contents/icons/halloween/halloween_cursor.svg") 16 16, auto !important;
+
+	}
+}
+
+/* VALENTINES DAY EVENT */
+@media screen and (min-width: 768px) {
+	html[id*="V2023-MUJER-METAVERSE-VALANTINE-COLLECTION"],
+	html[id*="V2023-MUJER-METAVERSE-VALANTINE-COLLECTION"] .link,
+	html[id*="V2023-MUJER-METAVERSE-VALANTINE-COLLECTION"] .filters__button,
+	html[id*="V2023-MUJER-METAVERSE-VALANTINE-COLLECTION"] .slider,
+	html[id*="V2023-MUJER-METAVERSE-VALANTINE-COLLECTION"] .layout-header__mobile-action,
+	html[id*="V2023-MUJER-METAVERSE-VALANTINE-COLLECTION"] .product-detail-size-selector__size-list-item,
+	html[id*="V2023-MUJER-METAVERSE-VALANTINE-COLLECTION"] .product-detail-product-size-selector-footer__size-guide-btn {
+		cursor: url("https://static.zara.net/static/contents/icons/valentines-day/valentines-day-cursor.svg") 16 16, auto !important;
+
+	}
+}
+
+.product-detail-view__main--bundle + .product-detail-view__cross-selling > .product-detail-cross-selling-grid {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .product-grid-product-add-to-cart {
+        top: initial;
+	}
+}
+
+
+/* Styles for I2023 redesign */
+[dir=ltr] .slider-spot-universe-collections {
+	right: var(--spacing-09);
+}
+
+[dir] .product-detail-card-info__coming-soon-subscriber {
+    background: var(--color-background-base);
+    border: 1px solid var(--color-content-high);
+    color: var(--color-content-high);
+}
+
+@media screen and (min-width: 768px) {
+	.products-category-view--zoom3 .product-grid-product__banner-title-text {
+		font-size: 1vw;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.home-page #slider-spot__universe_WOMAN .slider-spot-universe-collections {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.product-grid-product-add-to-cart-size-selector {
+		color: var(--color-content-high);
+	}
+}
+
+
+html[data-store='ww'] .geolocation-modal__button.zds-button--primary {
+	background-color: var(--color-background-base);
+	border: 1px solid var(--color-content-high);
+	color: var(--color-content-high);
+}
+
+html[data-store='ww'] .geolocation-modal__button.zds-button--primary:hover {
+	background-color: var(--color-background-base);
+}
+
+html[data-store='ww'] .geolocation-modal__button.zds-button--secondary {
+	background-color: var(--color-background-contrast);
+	border: 1px solid var(--color-content-inverse);
+	color: var(--color-content-inverse);
+}
+
+/* Solve temporary problems in small devices in home newsletter slide */
+@media screen and (max-height: 670px) and (max-width: 768px) {
+	html[data-store="br"] .home-page .home-footer__newsletter,
+	html[data-store="it"] .home-page .home-footer__newsletter {
+		margin-top: var(--spacing-04);
+	}	
+	html[data-store="br"] .home-page .home-footer__social-network,
+	html[data-store="it"] .home-page .home-footer__social-network {
+		margin-bottom: 100px;
+ 	}
+}
+
+@media screen and (min-width: 768px) {
+	.product-grid-block-highlighted-product.product-grid-product {
+		width: 100%;
+	}
+}

@@ -1,0 +1,14 @@
+/* stylelint-disable-next-line selector-max-compound-selectors */
+[dir] .guest-personal-data-form-view .company-group .form-group {
+	margin-bottom: var(--spacing-03);
+}
+
+.guest-personal-data-form-view__privacy-text {
+	font-size: var(--font-size-body-xs);
+	line-height: var(--line-height-body-xs);
+	letter-spacing: var(--letter-spacing-body-xs);
+	text-transform: uppercase;
+	font-stretch: var(--font-stretch-normal);
+	font-weight: var(--font-weight-light);
+}
+
